@@ -42,7 +42,7 @@
 		</security:ldap-authentication-provider>
 	</security:authentication-manager>
 
-	<security:ldap-server url="ldap://64.106.72.165:389"
+	<security:ldap-server url="ldap://MyOrgIP"
 		manager-dn="CN=ITAPPS Svc,OU=SvcAcnts,OU=IT,DC=colleges,DC=ad,DC=unm,DC=edu"
-		manager-password="Onate621hall!" />
+		manager-password="MyOrgIP" />
 </beans>
